@@ -6,8 +6,6 @@ const {
   validateZookeeper,
 } = require('../lib/zookeepers');
 const { zookeepers } = require('../data/zookeepers.json');
-const { jest, test, expect } = require('@jest/globals');
-
 jest.mock('fs');
 
 test('creates a zookeeper object', () => {
