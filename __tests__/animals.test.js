@@ -6,7 +6,6 @@ const {
   validateAnimal,
 } = require('../lib/animals');
 const { animals } = require('../data/animals.json');
-// const { jest } = require('@jest/globals');
 
 jest.mock('fs');
 
